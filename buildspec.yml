@@ -4,6 +4,8 @@ phases:
   install:
     commands:
       - echo "Nothing to install in this simple build"
+      - mkdir testfolder
+      - ls
 
   pre_build: 
     commands: 
